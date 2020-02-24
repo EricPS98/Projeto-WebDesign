@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Ícone da guia do site -->
-<!--	<link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png"> --> 
+	<link rel="shortcut icon" href="img/ico/logo.png" type="image/png"> 
 		
 	</head>
 
@@ -24,7 +24,10 @@
 		<header>
 				<nav class="navbar bg-dark navbar-dark navbar-expand-lg fixed-top">
 				
-					<a href="#" class="navbar-brand">Logo</a>
+					<a href="#" class="navbar-brand">
+						<img src="img/ico/logo.png" alt="home" width="100px" title="Home">
+					</a>
+
 					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -34,28 +37,37 @@
 						
 						<ul class="navbar-nav ml-md-auto">
 						
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Home</a>
-							</li>
-													
-							<li class="nav-item">
-								<a class="nav-link" href="#">Quem Somos</a>
-							</li>
-													
-							<li class="nav-item">
-								<a class="nav-link" href="#">Serviços</a>
-							</li>
-													
-							<li class="nav-item">
-								<a class="nav-link" href="#">Fale Conosco</a>
-							</li>
-							
 							<form class="form-inline">
 								<div class=" input-group">
 									<input type="text" placeholder="Buscar" name="buscar" class="form-control">
 									<input type="submit"  class="btn btn-success input-group-append">
 								</div>
 							</form>
+
+							<li class="nav-item active">
+								<a class="nav-link" href="#">
+								<img src="img/ico/home.png" alt="" width="32" height="32" title="Home">
+								Home
+								</a>
+							</li>
+													
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<img src="img/ico/about_us.png" alt="" width="32" height="32" title="Quem Somos">
+								Quem Somos</a>
+							</li>
+													
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<img src="img/ico/services.png" alt="" width="32" height="32" title="Serviços">
+								Serviços</a>
+							</li>
+													
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<img src="img/ico/tell_us.png" alt="" width="32" height="32" title="Fale Conosco">
+								Fale Conosco</a>
+							</li>
 						
 						</ul>
 					
@@ -67,7 +79,7 @@
 		<div id="main">
 			<div class="container">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida elit eget erat pharetra, sit amet blandit nisi gravida. Phasellus elementum lectus tortor, a finibus erat vulputate sed. Donec orci lorem, iaculis sit amet vulputate sed, maximus ut velit. Fusce condimentum, ex a rutrum rutrum, massa leo commodo ligula, eget porta nulla leo a diam. Aliquam erat volutpat. Sed a leo massa. Proin ac commodo nisi. In vel arcu pretium, pellentesque lorem vitae, molestie nisi. Suspendisse malesuada, leo sed vulputate cursus, arcu ex tristique sem, eget venenatis ipsum libero at neque. Aenean dignissim lobortis augue. Curabitur scelerisque varius urna nec vulputate. Donec tincidunt ante odio, non lacinia nisi elementum et. Suspendisse aliquet tincidunt massa, eget tempor lectus condimentum pellentesque. Donec convallis sodales enim, vitae cursus sem.
+					
 				</p>
 			</div>
 		</div>
@@ -80,20 +92,37 @@
 
 		<footer>
 			<div class="container">
+
 				<div class="row">
-					<div class="col-md-1 "><a href="#">Sobre</a></div>
-					<div class="col-md-1 "><a href="#">Navegar</a></div>
-					<div class="col-md-1 "><a href="#">Buscar</a></div>
-					<div class="col-md-1 "><a href="#">Ajuda</a></div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p>© 2020 Projeto - Web Design | Todos os direitos reservados. Construido por 
+					<div class="col-md-9">
+						<p>© 2020 Projeto - Web Design | Todos os direitos reservados. 
+							<br>Construido por 
 							<a href="#">Eric Palmeira de Souza</a>.</p>
 					</div>
 				</div>
-			</div>
 
+				<div class="row" id="linha_rodape">
+					<div class="col-md-2 "><a href="#">
+						<img src="img/ico/about.png" alt="" width="32" height="32" title="Sobre">
+					Sobre</a></div>
+					<div class="col-md-2 "><a href="#">
+						<img src="img/ico/navigate.png" alt="" width="32" height="32" title="Navegar">
+					Navegar</a></div>
+					<div class="col-md-2 "><a href="#">
+						<img src="img/ico/search.png" alt="" width="32" height="32" title="Buscar">
+					Buscar</a></div>
+					<div class="col-md-2 "><a href="#">
+						<img src="img/ico/help.png" alt="" width="32" height="32" title="Ajuda">
+					Ajuda</a></div>
+
+					<div class="col-md-4">
+						<div class="col-md-2" id="logo_rodape"><a href="#">
+							<img id="logo_rodape" src="img/ico/logo2.png"></a>
+						</div>
+					</div>
+				</div>
+
+			</div>	
 			<!-- jQuery -->
 		    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		    <script src="js/bootstrap.min.js"></script>
