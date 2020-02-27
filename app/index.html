@@ -1,152 +1,92 @@
+
 <!doctype html>
 <html lang="pt-br">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 
-		<!-- Declaração Bootstrap para compatibilidade com celular -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Declaração Bootstrap para compatibilidade com celular -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Título da página -->
-		<title>Projeto WebDesign</title>
+	<!-- Título da página -->
+	<title>Projeto WebDesign</title>
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 
-		<!-- Ícone da guia do site -->
+	<!-- Ícone da guia do site -->
 	<link rel="shortcut icon" href="img/ico/logo.png" type="image/png"> 
-		
-	</head>
 
-	<body>
+</head>
 
-		<header>
-				<nav class="navbar bg-dark navbar-dark navbar-expand-lg fixed-top">
-				
-					<a href="#" class="navbar-brand">
-						<img src="img/ico/logo.png" alt="home" width="100px" title="Home">
-					</a>
+<body >
 
-					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<!-- Links -->
-					<div  id="menu" class="collapse navbar-collapse">
-						
-						
-						<ul class="navbar-nav ml-md-auto">
-						
-							<form class="form-inline">
-								<div class=" input-group">
-									<input type="text" placeholder="Buscar" name="buscar" class="form-control">
-									<input type="submit"  class="btn btn-success input-group-append">
-								</div>
-							</form>
+	<div class="container p-3 mx-auto ">
+		<header class="masthead mb-auto">
 
-							<li class="nav-item active">
-								<a class="nav-link" href="#">
+			<nav class="navbar navbar-expand-sm navbar-dark ">
+
+				<a href="#" class="navbar-brand">
+					<img src="img/ico/logo.png" alt="home" width="100px" title="Home">
+				</a>
+
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu" >
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav mr-auto">
+
+						<li class="nav-item active">
+							<a class="nav-link" href="#">
 								<img src="img/ico/home.png" alt="" width="32" height="32" title="Home">
 								Home
-								</a>
-							</li>
-													
-							<li class="nav-item">
-								<a class="nav-link" href="#">
-									<img src="img/ico/about_us.png" alt="" width="32" height="32" title="Quem Somos">
-								Quem Somos</a>
-							</li>
-													
-							<li class="nav-item">
-								<a class="nav-link" href="#">
-									<img src="img/ico/services.png" alt="" width="32" height="32" title="Serviços">
-								Serviços</a>
-							</li>
-													
-							<li class="nav-item">
-								<a class="nav-link" href="#">
-									<img src="img/ico/tell_us.png" alt="" width="32" height="32" title="Fale Conosco">
-								Fale Conosco</a>
-							</li>
-						
-						</ul>
-					
-					</div>
-				
-				</nav>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<img src="img/ico/about_us.png" alt="" width="32" height="32" title="Quem Somos">
+							Quem Somos</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<img src="img/ico/services.png" alt="" width="32" height="32" title="Serviços">
+							Serviços</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<img src="img/ico/tell_us.png" alt="" width="32" height="32" title="Fale Conosco">
+							Fale Conosco</a>
+						</li>
+
+					</ul>
+
+				</div>
+			</nav>
 		</header>
 
-			<div id="main">
-				<div class="container">
-					
-					<!-- Carrossel -->
-					<div id="carossel" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					    <li data-target="#carossel" data-slide-to="0" class="active"></li>
-					    <li data-target="#carossel" data-slide-to="1"></li>
-					    <li data-target="#carossel" data-slide-to="2"></li>
-					    <li data-target="#carossel" data-slide-to="3"></li>
-					  </ol>
+		<main id="conteudo" role="main" class="inner cover">
+			<h1 class="cover-heading" _msthash="456521" _msttexthash="294710">Bem vindo ao meu site.</h1>
+			<p class="lead" _msthash="440648" _msttexthash="13931034">Aqui você não encontrará absolutamente nada de especial,
+			porém é bem legal. Navegue a vontade, se beber não dirija, use camisinha nesse carnaval e boas festas antecipadas.</p>
+			<p class="lead">
+				<a href="#" class="btn btn-lg btn-secondary" _msthash="556907" _msttexthash="126477">Saiba Mais</a>
+			</p>
+		</main>
+	</div>
 
-					  <!-- Imagens do Carrossel -->
-					  <div class="carousel-inner">
+	<footer>
+		<div class="container">
 
-					    <div class="carousel-item active">
-					      <img src="img/universo1.jpg" class="imgcarrossel" alt="Imagem 1">
-					      <div class="carousel-caption">
-					        <h5>Nebulosa cabulosa</h5>
-					      </div>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="img/universo2.jpg" class="imgcarrossel" alt="Imagem 2">
-					      <div class="carousel-caption">
-					        <h5>Mais uma nebulosa cabulosa</h5>
-					      </div>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="img/universo3.jpg" class="imgcarrossel" alt="Imagem 3">
-					      <div class="carousel-caption">
-					        <h5>Essa é braba</h5>
-					      </div>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="img/universo4.jpg" class="imgcarrossel" alt="Imagem 4">
-					      <div class="carousel-caption">
-					        <h5>Seloco pai, olha que top</h5>
-					      </div>
-					    </div>
-					  </div>
-
-					  <!-- Controles -->
-					<!-- Controle esquerdo -->
-					  <a class="carousel-control-prev" href="#carossel" role="button" data-slide="prev">
-					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					    <span class="sr-only">Anterior</span>
-					  </a>
-					  <!-- Controle direito -->
-					  <a class="carousel-control-next" href="#carossel" role="button" data-slide="next">
-					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					    <span class="sr-only">Próxima</span>
-					  </a>
-					</div>
-
-				</div>
-			</div>
-
-			<div id="middle">
-				<div class="container">
-
-				</div>
-			</div>
-
-		<footer>
-			<div class="container">
-
-				<div class="row">
-					<div class="col-md-9">
-						<p>© 2020 Projeto - Web Design | Todos os direitos reservados. 
-							<br>Construido por 
-							<a href="#">Eric Palmeira de Souza</a>.</p>
+			<div class="row">
+				<div class="col-md-9">
+					<p>© 2020 Projeto - Web Design | Todos os direitos reservados. 
+						<br>Construido por 
+						<a href="#">Eric Palmeira de Souza</a>.</p>
 					</div>
 				</div>
 
@@ -173,10 +113,10 @@
 
 			</div>	
 			<!-- JS -->
-		    <script src="js/jquery.js"></script>
-		    <script src="js/bootstrap.min.js"></script>
+			<script src="js/jquery.js"></script>
+			<script src="js/bootstrap.min.js"></script>
 		</footer>
 
 	</body>
 
-</html>
+	</html>
