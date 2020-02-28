@@ -22,7 +22,7 @@
 
 <body>
 
-	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" >
+	<div class="container d-flex w-100 h-100 p-3 mx-auto flex-column" >
 
 		<header class="masthead mb-auto">
 			<nav class="navbar navbar-expand-sm navbar-dark">
@@ -71,54 +71,84 @@
 		</header>
 		
 		<main role="main" class="inner cover mb-auto"id="conteudo">
-			<h1 class="cover-heading" _msthash="456521" _msttexthash="294710">Bem vindo ao meu site.</h1>
-			<p class="lead" _msthash="440648" _msttexthash="13931034">Aqui você não encontrará absolutamente nada de especial,
+
+
+			<!-- Modal -->
+			<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="Titulo do modal" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<h4 class="modal-title" id="titulo_modal">Eh mole</h4>
+						</div>
+						
+						<div class="modal-body" id="corpo_modal">
+							<p>
+							Aqui não tem nada mais pra ver,o site ta vazio mesmo.<br>
+							 É pegadinha, é pegadinha po kkkkkkkkkkk
+							</p>
+						</div>
+						
+						<div class="modal-footer">
+							<!-- <button type="button" class="btn btn-primary">Salvar Alterações</button> -->
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h1 class="cover-heading">Bem vindo ao meu site.</h1>
+			<p class="lead" >Aqui você não encontrará absolutamente nada de especial,
 			porém é bem legal. Navegue a vontade, se beber não dirija, use camisinha nesse carnaval e boas festas antecipadas.</p>
 			<p class="lead">
-				<a href="#" class="btn btn-lg btn-secondary" _msthash="556907" _msttexthash="126477">Saiba Mais</a>
+
+				<!-- Gatilho -->
+				<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#modal">Saiba Mais</button>
 			</p>
 		</main>
 		
 		<div>
-		<footer>
-			<div class="row">
+			<footer class="container">
+				<div class="row">
 
-				<div class="col-md-9">
-					<p>© 2020 Projeto - Web Design | Todos os direitos reservados. 
-						<br>Construido por 
-						<a href="#">Eric Palmeira de Souza</a>.</p>
-					</div>
-				</div>
-
-				<div class="row" id="linha_rodape">
-					<div class="col-md-2 "><a href="#">
-						<img src="img/ico/about.png" alt="" width="32" height="32" title="Sobre">
-					Sobre</a></div>
-					<div class="col-md-2 "><a href="#">
-						<img src="img/ico/navigate.png" alt="" width="32" height="32" title="Navegar">
-					Navegar</a></div>
-					<div class="col-md-2 "><a href="#">
-						<img src="img/ico/search.png" alt="" width="32" height="32" title="Buscar">
-					Buscar</a></div>
-					<div class="col-md-2 "><a href="#">
-						<img src="img/ico/help.png" alt="" width="32" height="32" title="Ajuda">
-					Ajuda</a></div>
-
-					<div class="col-md-4">
-						<div class="col-md-2" id="logo_rodape"><a href="#">
-							<img id="logo_rodape" src="img/ico/logo2.png"></a>
+					<div class="col-md-9">
+						<p>© 2020 Projeto - Web Design | Todos os direitos reservados. 
+							<br>Construido por 
+							<a href="#">Eric Palmeira de Souza</a>.</p>
 						</div>
 					</div>
-				</div>
 
-			</div>	
-		</footer>
+					<div class="row" id="linha_rodape">
 
-	</div>
+						<div class="col-md-2 "><a href="#">
+							<img src="img/ico/about.png" alt="" width="32" height="32" title="Sobre">
+						Sobre</a></div>
+						<div class="col-md-2 "><a href="#">
+							<img src="img/ico/navigate.png" alt="" width="32" height="32" title="Navegar">
+						Navegar</a></div>
+						<div class="col-md-2 "><a href="#">
+							<img src="img/ico/search.png" alt="" width="32" height="32" title="Buscar">
+						Buscar</a></div>
+						<div class="col-md-2 "><a href="#">
+							<img src="img/ico/help.png" alt="" width="32" height="32" title="Ajuda">
+						Ajuda</a></div>
 
-	<!-- JS -->
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-</body>
+						<div class="col-md-4">
+							<div class="col-md-2" id="logo_rodape"><a href="#">
+								<img id="logo_rodape" src="img/ico/logo2.png" title="WebDesign Project - By: Eric"></a>
+							</div>
+						</div>
 
-</html>
+					</div>
+
+				</div>	
+			</footer>
+
+		</div>
+
+		<!-- JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+	</html>
