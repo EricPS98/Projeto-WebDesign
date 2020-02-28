@@ -7,22 +7,19 @@ Data: 24/02/2020
 */
 
 // Define a página atual pela URL 
-$pagina = 'home';
+$pag = 'home';
 
-if(isset($_GET['i'])){
-	$pagina = addslashes($_GET['i']);
+if(isset($_GET['pag'])){
+	$pag = addslashes($_GET['pag']);
 }
 
 // Carrega o header.php
 include 'app/views/header.php';
 
 //Carrega a página escolhida dinamicamente pelo usuário
-switch ($pagina) {
-	case 'home'
-	include 'app/views/home.php';
-	break;
+switch ($pag) {
 
-	case 'sobre'
+	case 'sobre':
 	include 'app/views/sobre.php';
 	break;
 
@@ -37,10 +34,10 @@ switch ($pagina) {
 */
 
 	default:
-	include 'app/views/.php';
+	include 'app/views/home.php';
 	break;
 
 }
 
 //Carrega o footer.php
-include 'app/views/footer.php'
+include 'app/views/footer.php';
