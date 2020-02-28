@@ -20,46 +20,45 @@
 
 </head>
 
-<body >
+<body>
 
-	<div class="container p-3 mx-auto ">
+	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" >
+
 		<header class="masthead mb-auto">
-
-			<nav class="navbar navbar-expand-sm navbar-dark ">
-
+			<nav class="navbar navbar-expand-sm navbar-dark">
+				<!-- Logo da navbar -->
 				<a href="#" class="navbar-brand">
 					<img src="img/ico/logo.png" alt="home" width="100px" title="Home">
 				</a>
 
+				<!-- Botão que expande o menu em telas pequenas -->
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu" >
-					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon navbar-dark"></span>
 				</button>
 
+				<!-- Menu navbar -->
 				<div class="collapse navbar-collapse" id="menu">
 
 					<ul class="navbar-nav ml-md-auto">
 
 						<li class="nav-item active">
-							<a class="nav-link" href="#">
+							<a href="#" class="col-md-2 ">
 								<img src="img/ico/home.png" alt="" width="32" height="32" title="Home">
 								Home
 							</a>
 						</li>
-
 						<li class="nav-item">
-							<a class="nav-link" href="#">
+							<a href="#" class="col-md-2 ">
 								<img src="img/ico/about_us.png" alt="" width="32" height="32" title="Quem Somos">
 							Quem Somos</a>
 						</li>
-
 						<li class="nav-item">
-							<a class="nav-link" href="#">
+							<a href="#" class="col-md-2 ">
 								<img src="img/ico/services.png" alt="" width="32" height="32" title="Serviços">
 							Serviços</a>
 						</li>
-
 						<li class="nav-item">
-							<a class="nav-link" href="#">
+							<a href="#" class="col-md-2 ">
 								<img src="img/ico/tell_us.png" alt="" width="32" height="32" title="Fale Conosco">
 							Fale Conosco</a>
 						</li>
@@ -68,9 +67,10 @@
 
 				</div>
 			</nav>
-		</header>
 
-		<main id="conteudo" role="main" class="inner cover">
+		</header>
+		
+		<main role="main" class="inner cover mb-auto"id="conteudo">
 			<h1 class="cover-heading" _msthash="456521" _msttexthash="294710">Bem vindo ao meu site.</h1>
 			<p class="lead" _msthash="440648" _msttexthash="13931034">Aqui você não encontrará absolutamente nada de especial,
 			porém é bem legal. Navegue a vontade, se beber não dirija, use camisinha nesse carnaval e boas festas antecipadas.</p>
@@ -78,12 +78,11 @@
 				<a href="#" class="btn btn-lg btn-secondary" _msthash="556907" _msttexthash="126477">Saiba Mais</a>
 			</p>
 		</main>
-	</div>
-
-	<footer>
-		<div class="container">
-
+		
+		<div>
+		<footer>
 			<div class="row">
+
 				<div class="col-md-9">
 					<p>© 2020 Projeto - Web Design | Todos os direitos reservados. 
 						<br>Construido por 
@@ -113,11 +112,13 @@
 				</div>
 
 			</div>	
-			<!-- JS -->
-			<script src="js/jquery.js"></script>
-			<script src="js/bootstrap.min.js"></script>
 		</footer>
 
-	</body>
+	</div>
 
-	</html>
+	<!-- JS -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
