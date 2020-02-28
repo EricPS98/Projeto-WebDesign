@@ -1,9 +1,6 @@
 
 /* Style.css */
 
-footer {min-height: 100px; padding-top: 15px; padding-bottom: 20px; color: #999;  width: 100%;}
-nav {min-height: 90px; margin-bottom: 0;}
-
 /* Botão "Saiba Mais" */
 .btn-secondary,
 .btn-secondary:hover,
@@ -17,13 +14,18 @@ nav {min-height: 90px; margin-bottom: 0;}
 #titulo_modal {color: black;}
 #corpo_modal {color: gray;}
 
-/* Estrutura do 'body' */
+.efeito {background-color:rgba(0,0,0, 0.5); width:100%;}
 
+/* Estrutura do 'body' */
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-image: url("../img/wallpaper2.jpg");
+  background-size: cover;
+  clear: both;
 }
+
+#wallpaper {  background-size: cover; }
 
 body {
   display: -ms-flexbox;
@@ -42,4 +44,5 @@ body {
   font-weight: 700;
 }
 
+footer {color: #999;}
 #logo_rodape {max-height: 90px; right: 10px; bottom: 0px; position: absolute;}
